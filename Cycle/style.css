@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+header h2 {
+    margin: 0;
+}
+
+header h3 {
+    margin: 0;
+    font-style: italic;
+}
+
+nav {
+    background: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.logo-container img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.shop-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+a{
+    text-decoration:none ;
+    color: black;
+    border: full;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.map-container {
+    margin-top: 2rem;
+    text-align: center;
+}
+.map-container iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    border: none;
+}
+.container {
+    padding: 2rem;
+}
+button{
+    width: 10px0;
+    color: #119857;
+}
